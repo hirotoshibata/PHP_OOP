@@ -1,0 +1,50 @@
+階層型
+
+ネットワーク型
+
+リレーショナル型
+
+変数
+配列
+連想配列
+条件分岐文　if switch(if swtch(たくさん条件分岐をするときにオススメ))
+
+繰り返し処理(for foreach(配列) while)
+
+関数
+function 関数名(引数１,引数２){
+  echo 〇〇;
+  もしくは
+  return 戻したい値
+}
+
+スーパーグローバル変数
+$_POST['値'],$_GET['値']
+
+データ型5つ
+Int(integer=整数)
+String(文字列)
+Boolean(倫理型　True/False)
+Float(浮動小数点数 0.06)
+Array(配列)
+
+エラー文チートシート
+syntax error 構文エラー（PHPの構文から外れた書き方をしている)
+Undefined variable 変数が未定義
+Undefined offset 配列に指定した数字が未定義
+Undefind index 連想配列に指定したキーの文字列が未定義
+PDOStatement データベースに関わるプログラムでミスったとき
+
+CREATE
+READ
+UPDATE
+DELETE
+
+コロン構文
+html > php
+<?php if():?>
+処理
+<?php endif;?>
+
+
+
