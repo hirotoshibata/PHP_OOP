@@ -56,9 +56,10 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <?php foreach ($tasks as $task): ?>
                     <tr>
-                        <td>create new website</td>
-                        <td>2019/08/21</td>
+                        <td><?php echo h($task['name']); ?></td>
+                        <td><?php echo h($task['due_date']); ?></td>
                         <td>
                             <a class="text-success" href="edit.php">EDIT</a>
                         </td>
@@ -76,6 +77,7 @@
                             <a class="text-danger" href="delete.php">DELETE</a>
                         </td>
                     </tr>
+                    <?php endforeach; ?>
                 </tbody>
             </table>  
         </section>
