@@ -64,7 +64,8 @@
                             <a class="text-success" href="edit.php?id=<?php echo h($task['id']); ?>">EDIT</a>
                         </td>
                         <td>
-                            <a class="text-danger" href="delete.php">DELETE</a>
+                            <!-- idさせあればタスクを削除する事は出来るのでidを元にデータベースが削除される流れを記入する -->
+                            <a class="text-danger" href="delete.php?id=<?php echo h($task['id']); ?>">DELETE</a>
                         </td>
                     </tr>
                     <tr>

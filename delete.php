@@ -1,4 +1,13 @@
-<<?php 
-// 楽チンa
+<?php
+
+    require_once('Models/Todo.php');
+
+    $id = $_GET['id'];
+
+    $todo = new Todo();
+
+    $todo->delete($id);
+
+    header('location:index.php');
 
  ?>
