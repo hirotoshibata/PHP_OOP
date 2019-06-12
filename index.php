@@ -1,3 +1,15 @@
+<?php
+    require_once('function.php');
+    require_once('Models/Todo.php');
+
+    $todo = new Todo();
+
+    $tasks = $todo->all();
+ ?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
